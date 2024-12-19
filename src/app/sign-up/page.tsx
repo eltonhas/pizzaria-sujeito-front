@@ -13,7 +13,7 @@ export default function SignUp() {
 
           <FormSignUp />
 
-          <Link href={'/sign-in'} className="text-gray-400 text-sm">
+          <Link href={'/'} className="text-gray-400 text-sm">
             Já possui uma conta? Faça o login
           </Link>
         </section>

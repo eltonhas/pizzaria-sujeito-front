@@ -16,5 +16,5 @@ export async function handleSignUp(data: FormDataSignUp) {
   } catch (error) {
     console.error(error)
   }
-  redirect('/sign-in')
+  redirect('/')
 }

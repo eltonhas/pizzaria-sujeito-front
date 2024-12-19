@@ -11,7 +11,7 @@ export function LogOutButton() {
     deleteCookie('session', { path: '/' })
 
     toast.success('Deslogado com sucesso')
-    router.replace('/sign-in')
+    router.replace('/')
   }
   return (
     <>

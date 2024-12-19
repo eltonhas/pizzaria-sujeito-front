@@ -1,6 +1,6 @@
 'use server'
 
-import type { FormDataSignIn } from '@/app/sign-in/components/form-login'
+import type { FormDataSignIn } from '@/app/(sign-in)/components/form-login'
 import { api } from '@/services/axios'
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
@@ -30,5 +30,5 @@ export async function handleSignIn(data: FormDataSignIn) {
   } catch (error) {
     console.error(error)
   }
-  redirect('/')
+  redirect('/dashboard')
 }

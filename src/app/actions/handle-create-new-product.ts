@@ -1,7 +1,7 @@
 'use server'
 
 import { getCookiesServer } from '@/lib/cookie-server'
-import type { FormProductData } from '../(dashboard)/product/form-product'
+import type { FormProductData } from '../dashboard/product/form-product'
 import { api } from '@/services/axios'
 import { redirect } from 'next/navigation'
 
